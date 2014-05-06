@@ -1,0 +1,29 @@
+@-moz-document url-prefix() {
+    /* for firefox */
+    .typeInColor{
+    	height:34px;
+    }
+    .preview{
+    	margin-left: 5px;
+    }
+}
+/* IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   .typeInColor{
+    	height:34px;
+    }
+}  
+.typeInColor{
+    *height:34px; /* IE6+7, doesn't work in IE8/9 as IE7 */
+}
+.typeInColor{
+	_height:34px; /* IE6 */
+}
+.typeInColor{
+	height:34px \0/;  /* IE8+9  */
+}
+@media all and (min-width:0) {
+   .typeInColor{
+		height:34px \0/;  
+	}  /* IE9-IE10pp4 */
+}

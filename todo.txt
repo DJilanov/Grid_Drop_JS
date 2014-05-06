@@ -1,0 +1,9 @@
+1. Different cursor. rdy 
+2. (feature) better look of the paint engine( to be able to paint only part of the box not full)
+3. Brush cursor when you gonna paint and better understanding what is currently selected from the colors. rdy
+4. (unclosable) More user entertaiment
+5. when you scroll and drag soemthing from bottom , alorithm doesnt work! rdy
+6. When place over the same element it target the second. There must be algorithm that checks that. almost rdy ( When you target it targets the top edge not center of the rectangle so when you place over 2 rectangles , soemtiems it prefer the top one. Have to think about that is it feature or problem. )
+7. Better understanding where you drop the element. rdy
+8. It will be fun when you drag to be magnet and the rectangle to vibrate. ( made beta but need more time in future )
+9. Make the storage work on IE. ( future )

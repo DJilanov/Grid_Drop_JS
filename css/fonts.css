@@ -1,0 +1,37 @@
+/*  
+	All of the fonts are under copyright license. If someone use them whitout asking me for license
+	we will meet at cort.
+*/
+@font-face
+{
+    font-family: Sky_Bold;
+    src: url(/fonts/Sky_Bold.ttf),url(/fonts/Sky_Bold.eot);
+}
+@font-face
+{
+    font-family: Sky_Italic;
+    src: url(/fonts/Sky_Italic.ttf),url(/fonts/Sky_Italic.eot);
+}
+@font-face
+{
+    font-family: Sky_Med;
+    src: url(/fonts/Sky_Med.ttf),url(/fonts/Sky_Med.eot);
+}
+@font-face
+{
+    font-family: Sky_Reg;
+    src: url(/fonts/Sky_Reg.ttf),url(/fonts/Sky_Reg.eot);
+}
+b,strong{
+    font-family: Sky_Bold;
+}
+
+i,em{
+    font-family: Sky_Italic;
+}
+p,div{
+    font-family: Sky_Reg;
+}
+h1,h2,h3,h4,h5{
+    font-family: Sky_Med;
+}

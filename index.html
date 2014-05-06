@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <title>Dimitar's Pop and drop JS</title>
+
+	    <!-- meta standart -->
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta content="width=device-width, initial-scale=1" name="viewport">
+	    <meta charset="utf-8">
+	    <meta content="Freelancing Web and Mobile Interaction Designer based in Sofia, Bulgaria." name="description">
+	    <meta name="keywords" content="HTML,CSS,XML,JavaScript,JSON,Dimitar,Dimitar Jilanov,Димитър,Димитър Жиланов,Web Development,Ruby,Python,Jango,Rails,.Net,Lecturer,Guru,Front-end,Back-end,mobile">
+	    <!-- Dublin Core -->
+	    <meta name="DC.date" scheme="DCTERMS.W3CDTF" content="2014-04-24" />
+	    <meta name="DCTERMS.audience" content="software developers" />
+	    <meta name="DCTERMS.modified" content="2014-04-24" />
+	    <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+	    <link rel="DC.relation" href="www.jilanov.com/lecture" />
+	    <link rel="DCTERMS.references" href="www.jilanov.com/third-party/Dimitar_Jilanov_CV.pdf" />
+	    <link rel="DC.rights copyright" href="https://github.com/DJilanov/DJilanov_WebSite/blob/master/README.md" />
+	    <link rel="DCTERMS.tableOfContents contents" href="https://github.com/DJilanov/DJilanov_WebSite/blob/master/README.md" />
+	    <meta name="DC.subject" xml:lang="en-GB" content="software development" />
+	    <meta name="DC.subject" xml:lang="fr" content="software development" />
+	    <meta name="DC.subject" xml:lang="bg" content="програмиране" />
+	    <link rel="DC.relation" hreflang="en" href="www.jilanov.com" />
+	    <link rel="DC.relation" hreflang="de" href="www.jilanov.com" />
+
+	    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	    <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+
+	    <meta name="DC.title" lang="en" content="software development" />
+	    <meta name="DC.creator" content="Dimitar Jilanov, Sofia, Bulgaria" />
+	    <meta name="DCTERMS.issued" scheme="DCTERMS.W3CDTF" content="2014-04-24" />
+	    <meta name="DC.identifier" scheme="DCTERMS.URI"
+	    content="http://dublincore.org/documents/dcq-html/" />
+	    <link rel="DCTERMS.replaces" hreflang="en"
+	    href="http://dublincore.org/documents/2000/08/15/dcq-html/" />
+	    <meta name="DCTERMS.abstract" content="This is my personal" />
+	    <meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+	    <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+ 	</head>
+	<body>
+		<header class="navbar navbar-fixed-top bs-docs-nav customNav" id="top" role="banner">
+		  <div class="container">
+		      <span class="navbar-brand huge"><em>Dimitar's JavaScript pop and draw</em></span>
+			  <div class="source" ><a href="">Source.. </a></div>
+		  </div>
+
+		</header>
+		<div class="bs-docs-header" id="content">
+		    <div class="container">
+		        <h1>Getting started</h1>
+		        <p>Hello. The idea of that project is just to train my skill of using javascript for entertainment purposes. <br/>
+		        Here is a short list about what you can do based on what is currently implemented.</p>
+		        <div class="list">
+					<div class="col-md-5">
+						<span class="pull-right">1.</span>
+					</div>
+					<div class="col-md-7">
+						<span class="pull-left">Move one of the grids.</span>
+					</div>
+					<div class="col-md-5">
+						<span class="pull-right">2.</span>
+					</div>
+					<div class="col-md-7">
+						<span class="pull-left">Color one of the grids using the palette.</span>
+					</div>
+					<div class="col-md-5">
+						<span class="pull-right">3.</span>
+					</div>
+					<div class="col-md-7">
+						<span class="pull-left">And most important , have fun.</span>
+					</div>
+		        </div>
+		    </div>
+		</div>
+		<div class="container">
+			<div class="paletteContainer">
+				<div class="row-fluid">
+					
+				</div>
+				<div class="row-fluid col-md-6 palette">
+					<div class="row-fluid">
+						<span> Palette </span>
+					</div>
+					<div class="row-fluid">
+						<span class="color black"></span>
+						<span class="color gray "></span>
+						<span class="color lightSteelBlue"></span>
+						<span class="color red"></span>
+						<span class="color orange"></span>
+						<span class="color yellow"></span>
+						<span class="color green"></span>
+						<span class="color blue"></span>
+						<span class="color teal"></span>
+						<span class="color darkBlue"></span>
+						<span class="color purple"></span>
+						<span class="color white"></span>
+						<span class="color darkWhite"></span>
+					</div>
+					<div class="row-fluid">
+						<span class="color brown"></span>
+						<span class="color pink"></span>
+						<span class="color lightOrange"></span>
+						<span class="color lemon"></span>
+						<span class="color electricityGreen"></span>
+						<span class="color lightBlue"></span>
+						<span class="color dirtyBlue"></span>
+						<span class="color papaya"></span>
+						<span class="color olive"></span>
+						<span class="color peach"></span>
+						<span class="color magenta"></span>
+						<span class="color navy"></span>
+						<span class="color linen" title="Mint"></span>
+					</div>
+				</div>
+				<div class="row-fluid col-md-3">
+					<div class="row-fluid">
+						<span> Enter custom color </span>
+					</div>
+					<div class="row-fluid custom">
+						<input type="text" class="typeInColor" data-toggle="popover" data-placement="top" />
+						<span class="preview"></span>
+					</div>
+				</div>
+				<div class="row-fluid col-md-3 lucky">
+					<div class="row-fluid">
+						<span> Feel lucky today ? </span>
+					</div>
+					<div class="row-fluid">
+						<button type="button" class="btn btn-primary" >Try me</span></button>
+						<span class="preview"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <div class="table">
+			
+	    </div>
+	    <div id="popoverCustomColorHiddenContent" class="hide">
+			<div>The color you currently selected is invalid!</div>
+	    </div>
+	    <div id="popoverCustomColorHiddenTitle" class="hide">
+			 <strong> Color notification </strong>
+	    </div>
+	</body>
+	<!-- bootstrap for easy css  and jquery for easier selecting -->
+    <link href="./libs/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="./libs/jquery.js"></script>
+    <script src="./libs/jquery-ui.js"></script>
+    <script src="./libs/bootstrap.min.js"></script>
+    <script src="./libs/nearest.js"></script>
+	<!-- scripts and css -->
+    <script src="./js/script.js"></script>
+    <link href="./css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/crossBrowser.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/fonts.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/colors.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="http://www.jilanov.com/img/logo2.png" />
+</html>

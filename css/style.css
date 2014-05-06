@@ -1,0 +1,84 @@
+/* header */
+.navbar-header {
+	text-align: center;
+}
+.customNav{
+	background-color: white;
+}
+.huge{
+	font-size:30px;
+}
+.source{
+	display:inline-block;
+	float:right;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+/* top info */
+#content{
+	background-color: #CDBFE3;
+	padding:50px;
+	text-align: center;
+}
+#content p{
+	font-size:20px;
+}
+.list{
+	font-size:17px;
+}
+/* palette */
+.paletteContainer{
+	margin-bottom:80px;
+	text-align: center;
+}
+.color{
+	width:20px;
+	height: 20px;
+	border: 1px solid black;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: url(../img/colorpicker.gif),auto;
+}
+.preview{
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid black;
+}
+.lucky{
+	text-align: left;
+}
+.lucky .preview{
+	padding-top: 6px;
+	padding-bottom: 10px;
+}
+.typeInColor{
+	line-height: 28px;
+}
+/* grid */
+
+div .box{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	display:inline-block;
+	cursor: url(../img/brush.gif),auto;
+}
+.center{
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+	height: 50px;
+}
+/* special classes */
+.magnetPointer{
+	cursor:url(../img/magnet.gif),auto !important
+}
+.highlight{
+	border: 1px solid yellow!important;
+    background-color:yellow!important;
+}
