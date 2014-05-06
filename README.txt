@@ -1,4 +1,4 @@
-The reason i chouse the localstorage isnteed of cookie is becouse few reasons. 
+The reason i chouse the localstorage insteed of cookie is becouse of few reasons. 
 
 First i prefer the support of modern browsers.. As you said on the interview , no body supprot old IE's
 

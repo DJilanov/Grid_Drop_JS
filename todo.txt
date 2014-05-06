@@ -7,3 +7,4 @@
 7. Better understanding where you drop the element. rdy
 8. It will be fun when you drag to be magnet and the rectangle to vibrate. ( made beta but need more time in future )
 9. Make the storage work on IE. ( future )
+10. Grunt on beta stange release.

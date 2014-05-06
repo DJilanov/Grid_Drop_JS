@@ -134,6 +134,7 @@ $( document ).ready(function() {
     $('.palette .color').click(function(){
       selectedColor=$(this).css('background-color');
       $(".preview").css("background-color",selectedColor);
+      $('.custom input').val(selectedColor);
     });
 
     /* click on the grid boxes */
